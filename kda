@@ -1,0 +1,5 @@
+def kda(k, d, a):
+  kda_ = (k + a) / d
+  return kda_
+
+kda(3, 1, 0)
