@@ -1,0 +1,22 @@
+def moon_phase(phase):
+  if phase == 'new moon':
+    return('🌑')
+  elif phase == 'Waxing Crescent':
+    return('🌒')
+  elif phase == 'First Quarter':
+    return('🌓')
+  elif phase == 'Waxing Gibbous':
+    return('🌔')
+  elif phase == 'Full Moon':
+    return( '🌕' ) 
+  elif phase  == 'Waning Gibbous':
+    print('🌖')
+  elif phase =='Last Quarter':
+    print('🌗')
+  elif phase == 'Waning Crescent':
+    print('🌘')
+  else:
+    print('Invalid moon phase')
+
+moon_phase()
+
