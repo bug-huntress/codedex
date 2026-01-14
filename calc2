@@ -1,0 +1,20 @@
+def add(a, b):
+  return a+b
+
+add(1,2)
+
+def subtract(a, b):
+  return a-b
+subtract(2,1)
+
+def multiply(a, b):
+  return a*b
+multiply(2, 3)
+
+def divide(a, b):
+  return a/b
+divide(4, 2)
+
+def exp(a, b):
+  return a**b
+exp(4, 2)
